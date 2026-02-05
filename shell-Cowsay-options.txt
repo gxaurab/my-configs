@@ -1,0 +1,31 @@
+
+In the command fortune | cowsay -f <option>, the -f flag specifies a "cowfile," which is an ASCII art template used to display your fortune. You can find a complete list of available cowfiles on your system by running cowsay -l. 
+
+Common options for the -f flag include:
+
+Classic Animal & Character Options
+  tux: The Linux penguin.
+  dragon: A large ASCII dragon.
+  elephant: A detailed elephant.
+  bunny: A simple rabbit.
+  hellokitty: The popular cartoon character.
+  koala: A cute koala head.
+  vader: Darth Vader as a cow. 
+  Unique & Fun Objects
+  ghostbusters: The Ghostbusters logo.
+  cheese: A block of Swiss cheese.
+  milk: A carton of milk.
+  stegosaurus: A dinosaur template.
+  skeleton: A skeletal version of the cow. 
+
+
+Mode Modifiers (Alternative to -f) 
+While -f changes the character, you can also use these flags to change the cow's "state of mind":
+  -d: Dead cow.
+  -g: Greedy cow ($$ in eyes).
+  -p: Paranoid cow.
+  -s: Stoned/sleepy cow.
+  -y: Youthful cow. 
+
+Pro-Tip: If your version of cowsay supports it, you can use -r instead of -f to choose a random template every time. 
+
